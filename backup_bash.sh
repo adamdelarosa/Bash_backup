@@ -107,7 +107,7 @@ if [ -e "$dest/$archive_file" ]; then
     echo $dest/$archive_file - Has been successfully transferred, backup is OK.
 else
     echo $dest/$archive_file - is not exists, FAILED.
-    mail -s "testmail" xxx@xxx.com "Backup to jenkines has started and end with error: 
+    mail -s "testmail" xxx@xxx.com "Backup has started and end with error: 
 
 $dest/$archive_file - is not exists, FAILED.
 
